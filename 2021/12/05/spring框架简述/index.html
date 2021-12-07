@@ -482,7 +482,7 @@
 <p>(2) 、一种为基于注解，需要在XML中开启注解扫描，有的同学在网上查资料会看到</p>
 <p>&lt;context:annotation-config /&gt;，它是告诉Spring把@Component、@Resource等这些注解开启， component-scan包括了它的功能。</p>
 <p>(3) 、一种为基于java代码的，目前流行最广泛的是基于注解的，基于java的，是一种编写趋势，后续企业中可能会陆续去使用。</p>
-<h1 id="第二章：Spring的Bean生命周期和组装方式"><a href="#第二章：Spring的Bean生命周期和组装方式" class="headerlink" title="第二章：Spring的Bean生命周期和组装方式"></a>第二章：Spring的Bean生命周期和组装方式</h1><h2 id="一、介绍Spring-IoC的工作视图"><a href="#一、介绍Spring-IoC的工作视图" class="headerlink" title="一、介绍Spring   IoC的工作视图"></a><strong>一、</strong>介绍Spring   IoC的工作视图</h2><p>SpringIoC容器帮我们生产可使用的对象，需要两个输入，一个是我们的实体类或POJOs，一个是元数据</p>
+<h1 id="Spring的Bean生命周期和组装方式"><a href="#Spring的Bean生命周期和组装方式" class="headerlink" title="Spring的Bean生命周期和组装方式"></a>Spring的Bean生命周期和组装方式</h1><h2 id="一、介绍Spring-IoC的工作视图"><a href="#一、介绍Spring-IoC的工作视图" class="headerlink" title="一、介绍Spring   IoC的工作视图"></a><strong>一、</strong>介绍Spring   IoC的工作视图</h2><p>SpringIoC容器帮我们生产可使用的对象，需要两个输入，一个是我们的实体类或POJOs，一个是元数据</p>
 <h2 id="二、Spring-IoC容器的两个核心的接口，"><a href="#二、Spring-IoC容器的两个核心的接口，" class="headerlink" title="二、Spring IoC容器的两个核心的接口，"></a><strong>二、</strong>Spring IoC容器的两个核心的接口，</h2><p>一个是BeanFactory一个是ApplicationContext，在实例化的时候，注意对应好具体的实现：</p>
 <p>我们主要介绍了如下实例化方式，BeanFactory的：</p>
 <p>BeanFactory beanFactory = new XmlBeanFactory(new ClassPathResource(“beans.xml”)); ApplicationContext的</p>
