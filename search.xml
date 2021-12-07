@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>博客简述</title>
+      <link href="/tongjiaxuan/tongjiaxuan.github.io/2021/12/07/README/"/>
+      <url>/tongjiaxuan/tongjiaxuan.github.io/2021/12/07/README/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Ayen博客"><a href="#Ayen博客" class="headerlink" title="Ayen博客"></a>Ayen博客</h1><p>这是我的第一个博客，以nodejs为依托，使用hexo，部署到github上，采用了主题matery</p><h1 id="这是matery的优秀特性"><a href="#这是matery的优秀特性" class="headerlink" title="这是matery的优秀特性"></a>这是matery的优秀特性</h1><ul><li>简单漂亮，文章内容美观易读 <br></li><li>Material Design 设计 <br></li><li>响应式设计，博客在桌面端、平板、手机等设备上均能很好的展现  <br></li><li>首页轮播文章及每天动态切换 Banner 图片<br></li><li>瀑布流式的博客文章列表（文章无特色图片时会有 24 张漂亮的图片代替）<br></li><li>时间轴式的归档页<br></li><li>词云的标签页和雷达图的分类页<br></li><li>丰富的关于我页面（包括关于我、文章统计图、我的项目、我的技能、相册等）<br></li><li>可自定义的数据的友情链接页面<br></li><li>支持文章置顶和文章打赏<br></li><li>支持 MathJax<br></li><li>TOC 目录<br></li><li>可设置复制文章内容时追加版权信息<br></li><li>可设置阅读文章时做密码验证<br></li><li>Gitalk、Gitment、Valine 和 Disqus 评论模块（推荐使用 Gitalk）<br></li><li>集成了不蒜子统计、谷歌分析（Google Analytics）和文章字数统计等功能<br></li><li>支持在首页的音乐播放和视频播放功能<br></li><li>支持emoji表情，用markdown emoji语法书写直接生成对应的能跳跃的表情。<br></li><li>支持 DaoVoice、Tidio 在线聊天功能。<br></li></ul><h1 id="matery的下载地址为"><a href="#matery的下载地址为" class="headerlink" title="matery的下载地址为"></a>matery的下载地址为</h1><p><a href="https://github.com/blinkfox/hexo-theme-matery.git">https://github.com/blinkfox/hexo-theme-matery.git</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 感想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 感想 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>spring框架简述</title>
       <link href="/tongjiaxuan/tongjiaxuan.github.io/2021/12/05/spring%E6%A1%86%E6%9E%B6%E7%AE%80%E8%BF%B0/"/>
       <url>/tongjiaxuan/tongjiaxuan.github.io/2021/12/05/spring%E6%A1%86%E6%9E%B6%E7%AE%80%E8%BF%B0/</url>
