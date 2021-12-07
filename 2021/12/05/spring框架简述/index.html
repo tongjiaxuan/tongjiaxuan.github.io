@@ -5,9 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="spring框架简述, java,android,考研,计算机">
-    <meta name="description" content="Ioc&amp;amp;DI以及spring框架概述
-一、我们首先进行了一下面向对象的回顾，类是实现实现业务的需要，类的定义，与类之间的关联关  系。
-二、我们通过报表的例子，从最原始的实现，到引入容器，把对象的创建交给容器管理，在容器中，我  们">
+    <meta name="description" content="Ioc&amp;amp;DI以及spring框架概述一、类是实现实现业务的需要，类的定义，与类之间的关联关  系。二、通过报表的例子，从最原始的实现，到引入容器，把对象的创建交给容器管理，在容器中，我  们提供获取容器的方法，我们用的是单例模式，单">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -20,19 +18,19 @@
 
 
     <title>spring框架简述 | Ayen的博客</title>
-    <link rel="icon" type="image/png" href="/medias/logo1.png">
+    <link rel="icon" type="image/png" href="/tongjiaxuan/tongjiaxuan.github.io/medias/logo1.png">
 
-    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
-    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/matery.css">
-    <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <link rel="stylesheet" type="text/css" href="/tongjiaxuan/tongjiaxuan.github.io/libs/awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/tongjiaxuan/tongjiaxuan.github.io/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/tongjiaxuan/tongjiaxuan.github.io/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/tongjiaxuan/tongjiaxuan.github.io/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/tongjiaxuan/tongjiaxuan.github.io/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/tongjiaxuan/tongjiaxuan.github.io/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/tongjiaxuan/tongjiaxuan.github.io/css/my.css">
 
-    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="/tongjiaxuan/tongjiaxuan.github.io/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+<meta name="generator" content="Hexo 5.4.0"><link rel="stylesheet" href="/tongjiaxuan/tongjiaxuan.github.io/css/prism-tomorrow.css" type="text/css"></head>
 
 
 
@@ -42,9 +40,9 @@
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
             <div class="brand-logo">
-                <a href="/" class="waves-effect waves-light">
+                <a href="/tongjiaxuan/tongjiaxuan.github.io/" class="waves-effect waves-light">
                     
-                    <img src="/medias/logo1.png" class="logo-img" alt="LOGO">
+                    <img src="/tongjiaxuan/tongjiaxuan.github.io/medias/logo1.png" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">Ayen的博客</span>
                 </a>
@@ -56,7 +54,7 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/" class="waves-effect waves-light">
+    <a href="/tongjiaxuan/tongjiaxuan.github.io/" class="waves-effect waves-light">
       
       <i class="fas fa-home" style="zoom: 0.6;"></i>
       
@@ -67,7 +65,7 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/tags" class="waves-effect waves-light">
+    <a href="/tongjiaxuan/tongjiaxuan.github.io/tags" class="waves-effect waves-light">
       
       <i class="fas fa-tags" style="zoom: 0.6;"></i>
       
@@ -78,7 +76,7 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/categories" class="waves-effect waves-light">
+    <a href="/tongjiaxuan/tongjiaxuan.github.io/categories" class="waves-effect waves-light">
       
       <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
       
@@ -89,7 +87,7 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/archives" class="waves-effect waves-light">
+    <a href="/tongjiaxuan/tongjiaxuan.github.io/archives" class="waves-effect waves-light">
       
       <i class="fas fa-archive" style="zoom: 0.6;"></i>
       
@@ -100,7 +98,7 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/about" class="waves-effect waves-light">
+    <a href="/tongjiaxuan/tongjiaxuan.github.io/about" class="waves-effect waves-light">
       
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
       
@@ -111,7 +109,7 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/friends" class="waves-effect waves-light">
+    <a href="/tongjiaxuan/tongjiaxuan.github.io/friends" class="waves-effect waves-light">
       
       <i class="fas fa-address-book" style="zoom: 0.6;"></i>
       
@@ -132,7 +130,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="/medias/logo1.png" class="logo-img circle responsive-img">
+        <img src="/tongjiaxuan/tongjiaxuan.github.io/medias/logo1.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">Ayen的博客</div>
         <div class="logo-desc">
@@ -146,7 +144,7 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/" class="waves-effect waves-light">
+		<a href="/tongjiaxuan/tongjiaxuan.github.io/" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-home"></i>
 			
@@ -157,7 +155,7 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/tags" class="waves-effect waves-light">
+		<a href="/tongjiaxuan/tongjiaxuan.github.io/tags" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-tags"></i>
 			
@@ -168,7 +166,7 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/categories" class="waves-effect waves-light">
+		<a href="/tongjiaxuan/tongjiaxuan.github.io/categories" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-bookmark"></i>
 			
@@ -179,7 +177,7 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/archives" class="waves-effect waves-light">
+		<a href="/tongjiaxuan/tongjiaxuan.github.io/archives" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-archive"></i>
 			
@@ -190,7 +188,7 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/about" class="waves-effect waves-light">
+		<a href="/tongjiaxuan/tongjiaxuan.github.io/about" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-user-circle"></i>
 			
@@ -201,7 +199,7 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/friends" class="waves-effect waves-light">
+		<a href="/tongjiaxuan/tongjiaxuan.github.io/friends" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-address-book"></i>
 			
@@ -289,7 +287,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/tongjiaxuan/tongjiaxuan.github.io/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -307,7 +305,7 @@
 <main class="post-container content">
 
     
-    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+    <link rel="stylesheet" href="/tongjiaxuan/tongjiaxuan.github.io/libs/tocbot/tocbot.css">
 <style>
     #articleContent h1::before,
     #articleContent h2::before,
@@ -410,7 +408,7 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/spring/">
+                            <a href="/tongjiaxuan/tongjiaxuan.github.io/tags/spring/">
                                 <span class="chip bg-color">spring</span>
                             </a>
                         
@@ -422,7 +420,7 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/spring/" class="post-category">
+                            <a href="/tongjiaxuan/tongjiaxuan.github.io/categories/spring/" class="post-category">
                                 spring
                             </a>
                         
@@ -439,6 +437,11 @@
                 </div>
                 
 
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2021-12-07
+                </div>
                 
 
                 
@@ -461,9 +464,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Ioc-amp-DI以及spring框架概述"><a href="#Ioc-amp-DI以及spring框架概述" class="headerlink" title="Ioc&amp;DI以及spring框架概述"></a>Ioc&amp;DI以及spring框架概述</h1><p><img src="file:///C:\Users\86150\AppData\Local\Temp\ksohtml\wpsB903.tmp.png" alt="img"></p>
-<p><strong>一、</strong>我们首先进行了一下面向对象的回顾，类是实现实现业务的需要，类的定义，与类之间的关联关  系。</p>
-<p><strong>二、</strong>我们通过报表的例子，从最原始的实现，到引入容器，把对象的创建交给容器管理，在容器中，我  们提供获取容器的方法，我们用的是单例模式，单例模式的关键点是什么，首先是定义一个静态的属   性，然后提供一个获取对象实例的方法。单例模式又分为懒汉模式和饿汉模式。区别点是属性中是否 new对象。</p>
+                <h1 id="Ioc-amp-DI以及spring框架概述"><a href="#Ioc-amp-DI以及spring框架概述" class="headerlink" title="Ioc&amp;DI以及spring框架概述"></a>Ioc&amp;DI以及spring框架概述</h1><h2 id="一、类是实现实现业务的需要，类的定义，与类之间的关联关-系。"><a href="#一、类是实现实现业务的需要，类的定义，与类之间的关联关-系。" class="headerlink" title="一、类是实现实现业务的需要，类的定义，与类之间的关联关  系。"></a><strong>一、</strong>类是实现实现业务的需要，类的定义，与类之间的关联关  系。</h2><p><strong>二、</strong>通过报表的例子，从最原始的实现，到引入容器，把对象的创建交给容器管理，在容器中，我  们提供获取容器的方法，我们用的是单例模式，单例模式的关键点是什么，首先是定义一个静态的属   性，然后提供一个获取对象实例的方法。单例模式又分为懒汉模式和饿汉模式。区别点是属性中是否 new对象。</p>
 <p><strong>三、</strong>我们继续演化，有了容器，我们要从容器中获取交给容器管理的资源，有一种通用的查找资源的设  计模式，就是JNDI。</p>
 <p><strong>四、</strong>查找资源需要资源定位器，使用起来问题是得知道如何查找。为了进一步优化，我们引出来IoC和</p>
 <p>ID的概念。</p>
@@ -477,31 +478,26 @@
 <p>(3) 、为什么依赖，应用程序需要由IoC容器提供对应所需要的资源。(4)、注入，在容器创建的时候，注入应用程序所需要的资源。</p>
 <p><strong>六、</strong>依赖注入的三种类型，接口注入，构造器注入，setter注入，其中对参数的位置和数量有要求的是构造器注入，流行最广泛的是setter注入。</p>
 <p><strong>七、</strong>Spring框架的简介，Spring的架构图。</p>
-<p><strong>八、</strong>Spring实现我们的例子，先导入jar包，然后编写配置元数据，编写相应的功能，配置元数据有三种方式，</p>
-<p>(1) 、一种为XML，这个需要在beans标签加入对应的XSD标记标签库</p>
+<h2 id="八、Spring实现我们的例子，先导入jar包，然后编写配置元数据，编写相应的功能，配置元数据有三种方式，"><a href="#八、Spring实现我们的例子，先导入jar包，然后编写配置元数据，编写相应的功能，配置元数据有三种方式，" class="headerlink" title="八、Spring实现我们的例子，先导入jar包，然后编写配置元数据，编写相应的功能，配置元数据有三种方式，"></a><strong>八、</strong>Spring实现我们的例子，先导入jar包，然后编写配置元数据，编写相应的功能，配置元数据有三种方式，</h2><p>(1) 、一种为XML，这个需要在beans标签加入对应的XSD标记标签库</p>
 <p>(2) 、一种为基于注解，需要在XML中开启注解扫描，有的同学在网上查资料会看到</p>
 <p>&lt;context:annotation-config /&gt;，它是告诉Spring把@Component、@Resource等这些注解开启， component-scan包括了它的功能。</p>
 <p>(3) 、一种为基于java代码的，目前流行最广泛的是基于注解的，基于java的，是一种编写趋势，后续企业中可能会陆续去使用。</p>
-<h2 id="第二章：Spring的Bean生命周期和组装方式"><a href="#第二章：Spring的Bean生命周期和组装方式" class="headerlink" title="第二章：Spring的Bean生命周期和组装方式"></a>第二章：Spring的Bean生命周期和组装方式</h2><p><img src="file:///C:\Users\86150\AppData\Local\Temp\ksohtml\wpsB904.tmp.png" alt="img"></p>
-<p><strong>一、</strong>介绍Spring   IoC的工作视图，SpringIoC容器帮我们生产可使用的对象，需要两个输入，一个是我们的实体类或POJOs，一个是元数据</p>
-<p><strong>二、</strong>Spring IoC容器的两个核心的接口，一个是BeanFactory一个是ApplicationContext，在实例化的时候，注意对应好具体的实现：</p>
+<h1 id="第二章：Spring的Bean生命周期和组装方式"><a href="#第二章：Spring的Bean生命周期和组装方式" class="headerlink" title="第二章：Spring的Bean生命周期和组装方式"></a>第二章：Spring的Bean生命周期和组装方式</h1><h2 id="一、介绍Spring-IoC的工作视图"><a href="#一、介绍Spring-IoC的工作视图" class="headerlink" title="一、介绍Spring   IoC的工作视图"></a><strong>一、</strong>介绍Spring   IoC的工作视图</h2><p>SpringIoC容器帮我们生产可使用的对象，需要两个输入，一个是我们的实体类或POJOs，一个是元数据</p>
+<h2 id="二、Spring-IoC容器的两个核心的接口，"><a href="#二、Spring-IoC容器的两个核心的接口，" class="headerlink" title="二、Spring IoC容器的两个核心的接口，"></a><strong>二、</strong>Spring IoC容器的两个核心的接口，</h2><p>一个是BeanFactory一个是ApplicationContext，在实例化的时候，注意对应好具体的实现：</p>
 <p>我们主要介绍了如下实例化方式，BeanFactory的：</p>
 <p>BeanFactory beanFactory = new XmlBeanFactory(new ClassPathResource(“beans.xml”)); ApplicationContext的</p>
 <p>ApplicationContext ctx = new ClassPathXmlApplicationContext(“beans.xml”);</p>
 <p>ApplicationContext ctx = new FileSystemXmlApplicationContext(“classpath:beans.xml”); 或 者是全路径</p>
 <p>ApplicationContext ctx = new AnnotationConfigApplicationContext(Run.class);</p>
-<p><strong>三、BeanFactory与ApplicationContext的区别</strong></p>
-<p>(1) 、 BeanFactory提供了配置框架和基本功能，ApplicationContext则添加了更多的企业特定功</p>
+<h2 id="三、BeanFactory与ApplicationContext的区别"><a href="#三、BeanFactory与ApplicationContext的区别" class="headerlink" title="三、BeanFactory与ApplicationContext的区别"></a><strong>三、BeanFactory与ApplicationContext的区别</strong></h2><p>(1) 、 BeanFactory提供了配置框架和基本功能，ApplicationContext则添加了更多的企业特定功</p>
 <p>能。</p>
 <p>(2) 、ApplicationContext是BeanFactory的一个子接口，同时也是它的一个完整的超集。</p>
 <p>(3) 、实例Bean的载入方式不同：BeanFactory延迟载入所有Bean，直到getBean()方法调用时才被</p>
 <p>创建。ApplicationContext启动后载入所有单实例Bean。通过预载入单实例Bean，确保当需要时可以 使用。</p>
-<p><strong>四、我们讲了Bean的三种实例化方式，</strong></p>
-<p>(1) 、默认使用的是构造方法实例化，调用默认的构造方法。</p>
+<h2 id="四、我们讲了Bean的三种实例化方式，"><a href="#四、我们讲了Bean的三种实例化方式，" class="headerlink" title="四、我们讲了Bean的三种实例化方式，"></a><strong>四、我们讲了Bean的三种实例化方式，</strong></h2><p>(1) 、默认使用的是构造方法实例化，调用默认的构造方法。</p>
 <p>(2) 、静态工厂方法实例化，实例对象的方法必须是静态的，不但要通过class属性指定相应的工厂，需要通过factory-method来指定具体的工厂方法。</p>
 <p>(3) 、实例工厂方法实例化，实例工厂，首先得把工厂实例了，然后再实例对象时，class属性必须为空，通过factory-bean来指定工厂，通过factory-method来指定实例方法。</p>
-<p><strong>五、我们还讲了Spring的生命周期，包括四个大的阶段：</strong></p>
-<p>(1)、实例化。(2)、属性赋值。(3)、初始化。</p>
+<h2 id="五、我们还讲了Spring的生命周期，包括四个大的阶段："><a href="#五、我们还讲了Spring的生命周期，包括四个大的阶段：" class="headerlink" title="五、我们还讲了Spring的生命周期，包括四个大的阶段："></a><strong>五、我们还讲了Spring的生命周期，包括四个大的阶段：</strong></h2><p>(1)、实例化。(2)、属性赋值。(3)、初始化。</p>
 <p>1&gt;如果Bean实现了BeanNameAware接口，Spring将Bean的Id传递给setBeanName()方法。</p>
 <p>2&gt;如果Bean实现了BeanFactoryAware接口，Spring将调用setBeanFactory()方法，将BeanFactory容器传入。</p>
 <p>3&gt;如果Bean实现了ApplicationContextAware接口，Spring将调用Bean的setApplicationContext()方法，将bean所在应用上下文引用传入。</p>
@@ -522,7 +518,7 @@
 <p><strong>九</strong>、我们还讲了setter注入，setter注入，首先属性中必须要有setter方法，然后在配置文件中使用</p>
 <p><strong>十、</strong>我们继续讲了基本类型注入，这部分都比较简单，其中内部类需要注意它的默认构造方法，有一个  所属类的参数。</p>
 <p><strong>十一</strong>、我们也讲了集合合并和模板装配，发生在父子里。集合合并通过属性指定merge属性，来进行合并，模板需要设置abstract=true</p>
-<p><strong>十二</strong>、我们重点讲了自动装配，全局配置可以通过在beans标签中增加default-autowire属性指定，如   何不配置全局的，在bean标签中，通过autowire属性进行设置，在全局设置时，整个容器所采用的都是相同类型的自动注入，在bean中的，可以有不同的，它的值一共有四种 ，</p>
+<h2 id="十二、我们重点讲了自动装配，"><a href="#十二、我们重点讲了自动装配，" class="headerlink" title="十二、我们重点讲了自动装配，"></a><strong>十二</strong>、我们重点讲了自动装配，</h2><p>全局配置可以通过在beans标签中增加default-autowire属性指定，如   何不配置全局的，在bean标签中，通过autowire属性进行设置，在全局设置时，整个容器所采用的都是相同类型的自动注入，在bean中的，可以有不同的，它的值一共有四种 ，</p>
 <p>(1)、no，为默认自动装配模式，不自动装配。(2)、byName，通过定义的名字进行装配。(3)、byType，通过类型进行装配。</p>
 <p>(4)、constructor，和byType类似。十三、我们在这里也讲了注解，</p>
 <p>(1) 、@Component，</p>
@@ -558,11 +554,11 @@
 <p>2&gt;XML的方式：&lt;aop:around  /&gt;，定义的方法，需要有ProceedingJoinPoint  joinPoint这个参数，用来执行目标方法</p>
 <p>3&gt;注解方式：@Around，定义的方法，需要有ProceedingJoinPoint joinPoint参数，用来执行目标方法。</p>
 <h1 id="Spring-MVC"><a href="#Spring-MVC" class="headerlink" title="Spring MVC"></a>Spring MVC</h1><p>​        在这两章，我们重点对Spring与SpringMVC的整合，SpringMVC的使用做了讲解，我们来一起复习一下。</p>
-<h3 id="一、什么是MVC"><a href="#一、什么是MVC" class="headerlink" title="一、什么是MVC"></a>一、什么是MVC</h3><p>​        MVC不仅仅是java独有的概念，MVC是一种开发Web应用程序的通用架构，它的核心思想是业务数据抽取同业务数据呈现相分离，程序分层，分工合作，既相互独立，又协同工作。</p>
+<h2 id="一、什么是MVC"><a href="#一、什么是MVC" class="headerlink" title="一、什么是MVC"></a>一、什么是MVC</h2><p>​        MVC不仅仅是java独有的概念，MVC是一种开发Web应用程序的通用架构，它的核心思想是业务数据抽取同业务数据呈现相分离，程序分层，分工合作，既相互独立，又协同工作。</p>
 <p>​        Model，模型层，业务数据的信息表示，用于提供相应的业务逻辑以及数据访问的功能。通常是多个业务实体的组合。考虑需要给客户展示什么。</p>
 <p>​        View，视图示，为用户提供UI，重点关注数据的呈现，用于页面显示，在java中，提供显示的技术有JSP，是由HTML和JSP标签构成。考虑优美的展示给客户信息</p>
 <p>​        Controller，负责Web应用程序的流程跳转以及业务逻辑的调用，传递数据给视图层用于呈现。考虑调用哪些业务逻辑可以满足数据的显示，如何执行效率更高等。</p>
-<h3 id="二、Spring-MVC-概述"><a href="#二、Spring-MVC-概述" class="headerlink" title="二、Spring MVC 概述"></a>二、Spring MVC 概述</h3><p>​        Spring MVC是基于请求驱动，围绕一个核心的Servlet转发请求到对应的Controller而设计的，我们上学期学习了Servlet，可以做Web应用，也学习了请求，路径，请求参数等等，Spring MVC简单理解，就是对Servlet进行了封装，让开发Web应用程序变的更简单。</p>
+<h2 id="二、Spring-MVC-概述"><a href="#二、Spring-MVC-概述" class="headerlink" title="二、Spring MVC 概述"></a>二、Spring MVC 概述</h2><p>​        Spring MVC是基于请求驱动，围绕一个核心的Servlet转发请求到对应的Controller而设计的，我们上学期学习了Servlet，可以做Web应用，也学习了请求，路径，请求参数等等，Spring MVC简单理解，就是对Servlet进行了封装，让开发Web应用程序变的更简单。</p>
 <p>​        既然封装了Servlet，那SpringMVC有什么优点呢，</p>
 <p>​        (1)、是一个典型的教科书式的MVC构架，易学易用。</p>
 <p>​        (2)、提供了清晰的角色划分，比如Controller、validator、handler mapping、view resolver等。</p>
@@ -570,21 +566,21 @@
 <p>​        (4)、可定制的数据绑定和验证，可定制的视图解决方案。</p>
 <p>​        (5)、提供了一套强大又使用简单的标签库。</p>
 <p>​        (6)、支持Restful风格。</p>
-<h3 id="三、SpringMVC体系结构"><a href="#三、SpringMVC体系结构" class="headerlink" title="三、SpringMVC体系结构"></a>三、SpringMVC体系结构</h3><p>​         (1)、SpringMVC是基于请求驱动的，可以处理所有匹配上的请求，那请求来了，到哪呢，我们学习Servlet的时候，是不是需要在web.xml中配置相应的请求路径，然后匹配到对应的Servlet，那SpringMVC封装了Servlet，底层还是Servlet，所以我们还需要在web.xml中配置相应的信息，就是我们图中看到，根据相应的配置，找到对应的DispatcherServlet，Servlet可以在web.xml配置多个，对应到不同的请求，那DispatcherServlet也可以配置多个。</p>
+<h2 id="三、SpringMVC体系结构"><a href="#三、SpringMVC体系结构" class="headerlink" title="三、SpringMVC体系结构"></a>三、SpringMVC体系结构</h2><p>​         (1)、SpringMVC是基于请求驱动的，可以处理所有匹配上的请求，那请求来了，到哪呢，我们学习Servlet的时候，是不是需要在web.xml中配置相应的请求路径，然后匹配到对应的Servlet，那SpringMVC封装了Servlet，底层还是Servlet，所以我们还需要在web.xml中配置相应的信息，就是我们图中看到，根据相应的配置，找到对应的DispatcherServlet，Servlet可以在web.xml配置多个，对应到不同的请求，那DispatcherServlet也可以配置多个。</p>
 <p>​          (2)、我们在web.xml中配置好了DispatcherServlet，那么DispatcherServlet是如何找到对应处理器(类)的，我们之前在学习Servlet的时候，如果写一个登陆，是不是对应一个serlvet，对应一个类，再有一个用户信息，是不是再来一个servlet，一个对应的类配置在xml中，即使使用注解，也是多个servlet，对吧，把路径写到类上进行匹配，那SpringMVC是如何匹配到的具体的处理类的呢，提供了一个HandlerMaping映射类，将请求的URL映射到同名的控制器上，返回一个执行链(preHandler-handler-afterHandler-afterCompletion)，那SpringMVC是如何寻找的呢。</p>
 <p>​          (3)、SpringMVC提供了HandlerAdapter，DispatcherServlet内部使用了HandlerAdapter，根据名字我们看出，这是一个适配模式，在统一的适配器，通过配置调用控制器(Handler)，也就是我们所说的Controller。</p>
 <p>​          (4)、在具体的控制器中，会调用相应的业务方法，执行业务逻辑，最终返回一个ModelAndView给DispatcherServlet，其中包含了视图逻辑名和相应的模型数据信息</p>
 <p>​          (5)、DispatcherServlet通过SpringMVC提供的ViewResolver视图解析器，完成逻辑视图到真实的视图解析过程，如在java中，handler返回的肯定不是一个jsp，应该是一个jsp的名称，是一个字符串，它是如何知道是哪个jsp的呢，就是通过ViewResolver来解析的。</p>
 <p>​          (6)、得到真实的视图后，DispatcherServlet使用个这个视图对象View，对ModelAndView中的模型数据进行渲染。</p>
 <p>​          (7)、最终把数据响应给客户。</p>
-<h3 id="四、Spring-MVC生命周期-执行流程"><a href="#四、Spring-MVC生命周期-执行流程" class="headerlink" title="四、Spring MVC生命周期(执行流程)"></a>四、Spring MVC生命周期(执行流程)</h3><p>​        (1)、客户端发送请求，经过一系列的过滤器和过滤器的代理类，使用过滤器代理类的好处就是可以使用Spring的生命周期，交给Spring去管理 。经过过滤器代理和过滤器后，到达DispatcherServlet。</p>
+<h2 id="四、Spring-MVC生命周期-执行流程"><a href="#四、Spring-MVC生命周期-执行流程" class="headerlink" title="四、Spring MVC生命周期(执行流程)"></a>四、Spring MVC生命周期(执行流程)</h2><p>​        (1)、客户端发送请求，经过一系列的过滤器和过滤器的代理类，使用过滤器代理类的好处就是可以使用Spring的生命周期，交给Spring去管理 。经过过滤器代理和过滤器后，到达DispatcherServlet。</p>
 <p>​        (2)、DipsatcherServlet根据HandlerMapping查找匹配的Controller，并将结果返回给DispatcherServlet。</p>
 <p>​        (3)、DispatcherSerlvet根据找到的Controller，将客户的请求转发到Controller。</p>
 <p>​        (4)、Controller执行处理后，调用各种业务方法，将处理后的结果绑定到ModelAndView，并返回给DispatcherServlet</p>
 <p>​        (5)、DispatcherServlet根据结果，通过视图解析器ViewResolver将ModelAndView绑定的视图进行解析，并返回给DispatcherSevlet。</p>
 <p>​        (6)、DispatcherServlet调用相应的View模板，解析数据，并渲染相应的数据。</p>
 <p>​        (7)、通过真实的View将视图展示的数据，返回给客户。</p>
-<h3 id="五、前端控制器DispacherServlet"><a href="#五、前端控制器DispacherServlet" class="headerlink" title="五、前端控制器DispacherServlet"></a>五、前端控制器DispacherServlet</h3><p>​        当请求到了DispatcherServlet后，DispatchServlet做了哪些事儿呢：</p>
+<h2 id="五、前端控制器DispacherServlet"><a href="#五、前端控制器DispacherServlet" class="headerlink" title="五、前端控制器DispacherServlet"></a>五、前端控制器DispacherServlet</h2><p>​        当请求到了DispatcherServlet后，DispatchServlet做了哪些事儿呢：</p>
 <p>​        (1)、寻找 WebApplicationContext，并将 WebApplicationContext作为一个属性绑定到请求里，以便控制器或其他原件在后续中使用。默认会以DispatcherServlet.WEB_APPLICATION_CONTEXT_ATTRIBUTE 键绑定到请求里。</p>
 <p>​        (2)、将本地化解析器绑定到请求里，以便在处理这个请求时，原件可以解析到客户端的地区（为了渲染视图，准备日期等）。</p>
 <p>​        (3)、将主题解析其绑定到请求里，让原件（如视图）决定去使用哪一种主题。</p>
@@ -592,7 +588,7 @@
 <p>​        (5)、寻找合适的 handler。如果找到这个 handler，执行与这个 handler 关联的执行链。</p>
 <p>​        (6)、如果返回一个 model，渲染相对应的视图。</p>
 <p>​        不管这里写了啥，还是执行的咱们之前说的那个图。重点是，第一步，就把容器给绑定了，可以在整个请求里使用容器中的内容。</p>
-<h3 id="六、SpringMVC的组件及作用"><a href="#六、SpringMVC的组件及作用" class="headerlink" title="六、SpringMVC的组件及作用"></a>六、SpringMVC的组件及作用</h3><p>​        (1)、HandlerMapping：将传入请求映射到处理器，找到对应的handler。</p>
+<h2 id="六、SpringMVC的组件及作用"><a href="#六、SpringMVC的组件及作用" class="headerlink" title="六、SpringMVC的组件及作用"></a>六、SpringMVC的组件及作用</h2><p>​        (1)、HandlerMapping：将传入请求映射到处理器，找到对应的handler。</p>
 <p>​        (2)、DispacherServlet：详见5</p>
 <p>​        (3)、HandlerAdapter：将处理器包装为适配器，从而支持多种类型的处理器</p>
 <p>​        (4)、LocaleResolver &amp; LocaleContextResolver：解释客户端所在地区和其时区(本地化)，以便提供国际化的视图</p>
@@ -600,16 +596,16 @@
 <p>​        (6)、MultipartResolver：解释multi-part请求，比如表单里支持文件上传</p>
 <p>​        (7)、ViewResolver：提供了视图名称和真实视图之间的映射</p>
 <p>​        (8)、View：是真正进行视图渲染，把结果返回给浏览器的</p>
-<h3 id="七、Controller控制器"><a href="#七、Controller控制器" class="headerlink" title="七、Controller控制器"></a>七、Controller控制器</h3><p>​        (1)、客户请求经由前端控制器DispatcherServlet后，分发给后续子控制器Controller</p>
+<h2 id="七、Controller控制器"><a href="#七、Controller控制器" class="headerlink" title="七、Controller控制器"></a>七、Controller控制器</h2><p>​        (1)、客户请求经由前端控制器DispatcherServlet后，分发给后续子控制器Controller</p>
 <p>​        (2)、SpringMVC的Controller会获取用户的输入，访问由服务接口定义的业务逻辑功能，并通过视图将模型数据再响应给用户。</p>
-<h3 id="八、编写一个SpringMVC的HelloWord"><a href="#八、编写一个SpringMVC的HelloWord" class="headerlink" title="八、编写一个SpringMVC的HelloWord"></a>八、编写一个SpringMVC的HelloWord</h3><p>​        (1)、新建立动态网站工程</p>
+<h2 id="八、编写一个SpringMVC的HelloWord"><a href="#八、编写一个SpringMVC的HelloWord" class="headerlink" title="八、编写一个SpringMVC的HelloWord"></a>八、编写一个SpringMVC的HelloWord</h2><p>​        (1)、新建立动态网站工程</p>
 <p>​        (2)、导入spring的包到lib下</p>
 <p>​        (3)、在web.xml中配置DispacherServlet，注意配置文件的位置。</p>
 <p>​        (4)、在web.xml配置Spring的监听，用于初始化Spring 容器，注意配置文件的位置及参数名。</p>
 <p>​        (5)、编写springMVC的配置文件，注意只加载被@Controller标识的类。</p>
 <p>​        (6)、编写spring的配置文件，加载除了@Controller的标识的类。</p>
 <p>​        (7)、编写Controller</p>
-<h3 id="九、SpringMVC常用注解及作用"><a href="#九、SpringMVC常用注解及作用" class="headerlink" title="九、SpringMVC常用注解及作用"></a>九、SpringMVC常用注解及作用</h3><p>​        (1)、@RequestMapping：用于映射URL，该注解可以写在类级别上，也可以写在方法级别上，可以使用method参数来限定请求</p>
+<h2 id="九、SpringMVC常用注解及作用"><a href="#九、SpringMVC常用注解及作用" class="headerlink" title="九、SpringMVC常用注解及作用"></a>九、SpringMVC常用注解及作用</h2><p>​        (1)、@RequestMapping：用于映射URL，该注解可以写在类级别上，也可以写在方法级别上，可以使用method参数来限定请求</p>
 <p>​        (2)、@PathVariable： 可以将 URL 中占位符参数绑定到控制器处理方法的入参中</p>
 <p>​        (3)、@RequestParam：将请求参数绑定到方法参法</p>
 <p>​        (4)、@CookieValue：注解允许将方法参数与HTTPcookie 值绑定</p>
@@ -617,13 +613,13 @@
 <p>​        (6)、@ResponseBody：此注解用在方法上，用来表示直接将返回数据写到HTTP响应体里</p>
 <p>​        (7)、GetMapping：等价与@RequestMapping(value=”/xxx”,method=RequestMethod.GET)</p>
 <p>​        (8)、PostMapping：等价与@RequestMapping(value=”/xxx”,method=RequestMethod.POST)</p>
-<h3 id="十、拦截器"><a href="#十、拦截器" class="headerlink" title="十、拦截器"></a>十、拦截器</h3><p>​        Spring的handler映射机制包含了handler拦截器。使用handler拦截器，可以在某些的请求中应用的特殊的功能，比如说检查权限、防止表单重复提交等等，handler映射的拦截器必须实现HandlerInterceptor接口，该接口有3个方法：</p>
+<h2 id="十、拦截器"><a href="#十、拦截器" class="headerlink" title="十、拦截器"></a>十、拦截器</h2><p>​        Spring的handler映射机制包含了handler拦截器。使用handler拦截器，可以在某些的请求中应用的特殊的功能，比如说检查权限、防止表单重复提交等等，handler映射的拦截器必须实现HandlerInterceptor接口，该接口有3个方法：</p>
 <p>​        preHandle(..) 在handler执行前调用。</p>
 <p>​        postHandle(..) 在handler执行后调用。</p>
 <p>​        afterCompletion(..) 在整一个请求完成后调用。</p>
 <p>​        编写完拦截器，要在springMVC中配置拦截器，mvc:interceptors，被拦截的地址和不拦截的地址，配置使用的拦截器bean，要注意bean的位置。拦截器可以配置多个，要注意多个拦截器之间的执行顺序。</p>
-<h3 id="十一、文件上传"><a href="#十一、文件上传" class="headerlink" title="十一、文件上传"></a>十一、文件上传</h3><p>​        spring整合了两个文件上传功能，一个是基于Servlet3.0的，一个是基于Commons FileUpload的。注意所使用的bean以及需要配置的所上传文件大小的参数。</p>
-<h3 id="十二、视图解析"><a href="#十二、视图解析" class="headerlink" title="十二、视图解析"></a>十二、视图解析</h3><p>​        (1)、InternalResourceViewResolver：它定义了前缀、后缀，并和控制器返回的视图名称拼接在一起，并解析为视图对象，它会将模型数据存放到对应的HttpServletRequest中，然后转发到相应的页面视图。</p>
+<h2 id="十一、文件上传"><a href="#十一、文件上传" class="headerlink" title="十一、文件上传"></a>十一、文件上传</h2><p>​        spring整合了两个文件上传功能，一个是基于Servlet3.0的，一个是基于Commons FileUpload的。注意所使用的bean以及需要配置的所上传文件大小的参数。</p>
+<h2 id="十二、视图解析"><a href="#十二、视图解析" class="headerlink" title="十二、视图解析"></a>十二、视图解析</h2><p>​        (1)、InternalResourceViewResolver：它定义了前缀、后缀，并和控制器返回的视图名称拼接在一起，并解析为视图对象，它会将模型数据存放到对应的HttpServletRequest中，然后转发到相应的页面视图。</p>
 <p>​        (2)、ResourceBundleViewResolver，它需要有一个配置文件来定义逻辑视图名称和真正View对象的对应关系。</p>
 <h1 id="Spring对JDBC的支持和事务"><a href="#Spring对JDBC的支持和事务" class="headerlink" title="Spring对JDBC的支持和事务"></a>Spring对JDBC的支持和事务</h1><h3 id="一、DAO"><a href="#一、DAO" class="headerlink" title="一、DAO"></a>一、DAO</h3><p>​        Spring中对数据访问对象(DAO)的支持旨在简化Spring与数据访问技术的操作，使JDBC、Hibernate、JPA和JDO等采用统一的方式访问。</p>
 <h3 id="二、-Controller、-Service、-Repository的作用"><a href="#二、-Controller、-Service、-Repository的作用" class="headerlink" title="二、@Controller、@Service、@Repository的作用"></a>二、@Controller、@Service、@Repository的作用</h3><p>​        @Controller注解用于类，标识该类为控制器。</p>
@@ -712,7 +708,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">Ayen</a>
+                    <a href="/tongjiaxuan/tongjiaxuan.github.io/about" rel="external nofollow noreferrer">Ayen</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -722,7 +718,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2021/12/05/spring%E6%A1%86%E6%9E%B6%E7%AE%80%E8%BF%B0/">http://example.com/2021/12/05/spring%E6%A1%86%E6%9E%B6%E7%AE%80%E8%BF%B0/</a>
+                    <a href="https://github.com/tongjiaxuan/tongjiaxuan.github.io/tongjiaxuan/tongjiaxuan.github.io/2021/12/05/spring%E6%A1%86%E6%9E%B6%E7%AE%80%E8%BF%B0/">https://github.com/tongjiaxuan/tongjiaxuan.github.io/tongjiaxuan/tongjiaxuan.github.io/2021/12/05/spring%E6%A1%86%E6%9E%B6%E7%AE%80%E8%BF%B0/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -735,7 +731,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="/about" target="_blank">Ayen</a>
+                    <a href="/tongjiaxuan/tongjiaxuan.github.io/about" target="_blank">Ayen</a>
                     !
                 </span>
             </div>
@@ -760,7 +756,7 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/spring/">
+                                <a href="/tongjiaxuan/tongjiaxuan.github.io/tags/spring/">
                                     <span class="chip bg-color">spring</span>
                                 </a>
                             
@@ -768,12 +764,12 @@
                     
                 </div>
                 <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
-                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+                    <link rel="stylesheet" type="text/css" href="/tongjiaxuan/tongjiaxuan.github.io/libs/share/css/share.min.css">
 <div id="article-share">
 
     
     <div class="social-share" data-sites="qq,qzone,wechat,weibo,twitter,facebook,google,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
-    <script src="/libs/share/js/social-share.min.js"></script>
+    <script src="/tongjiaxuan/tongjiaxuan.github.io/libs/share/js/social-share.min.js"></script>
     
 
     
@@ -812,11 +808,11 @@
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/2021/12/05/spring%E6%A1%86%E6%9E%B6%E7%AE%80%E8%BF%B0/">
+                <a href="/tongjiaxuan/tongjiaxuan.github.io/2021/12/05/spring%E6%A1%86%E6%9E%B6%E7%AE%80%E8%BF%B0/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="spring框架简述">
+                        <img src="/tongjiaxuan/tongjiaxuan.github.io/medias/featureimages/3.jpg" class="responsive-img" alt="spring框架简述">
                         
                         <span class="card-title">spring框架简述</span>
                     </div>
@@ -835,7 +831,7 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/spring/" class="post-category">
+                            <a href="/tongjiaxuan/tongjiaxuan.github.io/categories/spring/" class="post-category">
                                     spring
                                 </a>
                             
@@ -847,7 +843,7 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/spring/">
+                    <a href="/tongjiaxuan/tongjiaxuan.github.io/tags/spring/">
                         <span class="chip bg-color">spring</span>
                     </a>
                     
@@ -862,11 +858,11 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/12/05/JavaEE%E7%AE%80%E5%8D%95%E6%80%BB%E7%BB%93/">
+                <a href="/tongjiaxuan/tongjiaxuan.github.io/2021/12/05/JavaEE%E7%AE%80%E5%8D%95%E6%80%BB%E7%BB%93/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="JavaEE简单总结">
+                        <img src="/tongjiaxuan/tongjiaxuan.github.io/medias/featureimages/15.jpg" class="responsive-img" alt="JavaEE简单总结">
                         
                         <span class="card-title">JavaEE简单总结</span>
                     </div>
@@ -885,7 +881,7 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/java/" class="post-category">
+                            <a href="/tongjiaxuan/tongjiaxuan.github.io/categories/java/" class="post-category">
                                     java
                                 </a>
                             
@@ -896,7 +892,7 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/javaEE/">
+                    <a href="/tongjiaxuan/tongjiaxuan.github.io/tags/javaEE/">
                         <span class="chip bg-color">javaEE</span>
                     </a>
                     
@@ -911,23 +907,60 @@
 </div>
 
 
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE' || selection.getRangeAt(0).commonAncestorContainer.nodeName === 'CODE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: Ayen的博客<br />'
+            + '文章作者: Ayen<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
 
 <!-- 代码块功能依赖 -->
-<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+<script type="text/javascript" src="/tongjiaxuan/tongjiaxuan.github.io/libs/codeBlock/codeBlockFuction.js"></script>
 
 <!-- 代码语言 -->
 
-<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+<script type="text/javascript" src="/tongjiaxuan/tongjiaxuan.github.io/libs/codeBlock/codeLang.js"></script>
 
 
 <!-- 代码块复制 -->
 
-<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+<script type="text/javascript" src="/tongjiaxuan/tongjiaxuan.github.io/libs/codeBlock/codeCopy.js"></script>
 
 
 <!-- 代码块收缩 -->
 
-<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+<script type="text/javascript" src="/tongjiaxuan/tongjiaxuan.github.io/libs/codeBlock/codeShrink.js"></script>
 
 
     </div>
@@ -948,7 +981,7 @@
 </div>
 
 
-<script src="/libs/tocbot/tocbot.min.js"></script>
+<script src="/tongjiaxuan/tongjiaxuan.github.io/libs/tocbot/tocbot.min.js"></script>
 <script>
     $(function () {
         tocbot.init({
@@ -1033,7 +1066,7 @@
 
     <footer class="page-footer bg-color">
     
-        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+        <link rel="stylesheet" href="/tongjiaxuan/tongjiaxuan.github.io/libs/aplayer/APlayer.min.css">
 <style>
     .aplayer .aplayer-lrc p {
         
@@ -1083,8 +1116,8 @@
     </div>
 </div>
 
-<script src="/libs/aplayer/APlayer.min.js"></script>
-<script src="/libs/aplayer/Meting.min.js"></script>
+<script src="/tongjiaxuan/tongjiaxuan.github.io/libs/aplayer/APlayer.min.js"></script>
+<script src="/tongjiaxuan/tongjiaxuan.github.io/libs/aplayer/Meting.min.js"></script>
 
     
 
@@ -1095,7 +1128,7 @@
             
                 <span id="year">2021</span>
             
-            <a href="/about" target="_blank">Ayen</a>
+            <a href="/tongjiaxuan/tongjiaxuan.github.io/about" target="_blank">Ayen</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
@@ -1258,7 +1291,7 @@ $(function () {
         });
     };
 
-    searchFunc('/search.xml', 'searchInput', 'searchResult');
+    searchFunc('/tongjiaxuan/tongjiaxuan.github.io/search.xml', 'searchInput', 'searchResult');
 });
 </script>
 
@@ -1270,12 +1303,12 @@ $(function () {
 </div>
 
 
-    <script src="/libs/materialize/materialize.min.js"></script>
-    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
-    <script src="/libs/aos/aos.js"></script>
-    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
-    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
-    <script src="/js/matery.js"></script>
+    <script src="/tongjiaxuan/tongjiaxuan.github.io/libs/materialize/materialize.min.js"></script>
+    <script src="/tongjiaxuan/tongjiaxuan.github.io/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/tongjiaxuan/tongjiaxuan.github.io/libs/aos/aos.js"></script>
+    <script src="/tongjiaxuan/tongjiaxuan.github.io/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/tongjiaxuan/tongjiaxuan.github.io/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/tongjiaxuan/tongjiaxuan.github.io/js/matery.js"></script>
 
     
 
@@ -1290,14 +1323,14 @@ $(function () {
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
             if (windowWidth > 768) {
-                document.write('<script type="text/javascript" src="/libs/others/star.js"><\/script>');
+                document.write('<script type="text/javascript" src="/tongjiaxuan/tongjiaxuan.github.io/libs/others/star.js"><\/script>');
             }
         </script>
     
 
      
         <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
-        <script src="/libs/others/TencentCaptcha.js"></script>
+        <script src="/tongjiaxuan/tongjiaxuan.github.io/libs/others/TencentCaptcha.js"></script>
         <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
     
 
@@ -1320,7 +1353,7 @@ $(function () {
 </script>
 
     
-    <script src="/libs/others/clicklove.js" async="async"></script>
+    <script src="/tongjiaxuan/tongjiaxuan.github.io/libs/others/clicklove.js" async="async"></script>
     
     
 
@@ -1337,7 +1370,7 @@ $(function () {
     
 
     
-    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    <script src="/tongjiaxuan/tongjiaxuan.github.io/libs/instantpage/instantpage.js" type="module"></script>
     
 
 </body>
